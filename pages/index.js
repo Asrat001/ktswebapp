@@ -3,6 +3,7 @@ import Navar from '../components/Navar'
 import Head from 'next/head'
 import Service from '../components/Service'
 import Contact from '../components/Contact'
+import Aboutourservice from '../components/Aboutourservice'
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <main >
        <Landingpage/>
        <Service/>
+       <Aboutourservice/>
        <Contact/>
       
       </main>
